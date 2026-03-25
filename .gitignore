@@ -6,3 +6,12 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
+
+# Framework/Tools
+coverage/
+dist/
+build/
+.nyc_output/
+
+# OS Files
+Thumbs.db

@@ -1,28 +1,31 @@
 {
   "name": "career-skill-gap-analyzer-backend",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/muvindusupeshala/Career-Skill-Gap-Analyzer-BackEnd.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
-  "bugs": {
-    "url": "https://github.com/muvindusupeshala/Career-Skill-Gap-Analyzer-BackEnd/issues"
-  },
-  "homepage": "https://github.com/muvindusupeshala/Career-Skill-Gap-Analyzer-BackEnd#readme",
+  "private": true,
   "dependencies": {
+    "bcryptjs": "^3.0.3",
     "cors": "^2.8.6",
     "dotenv": "^17.3.1",
     "express": "^5.2.1",
-    "mongoose": "^9.3.3"
+    "jsonwebtoken": "^9.0.3",
+    "mongodb": "^7.1.1",
+    "mongoose": "^9.3.1",
+    "multer": "^2.1.1",
+    "pdf-parse": "^2.4.5"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version"
+    ]
   },
   "devDependencies": {
     "nodemon": "^3.1.14"
